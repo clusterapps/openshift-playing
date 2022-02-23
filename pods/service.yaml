@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-world-pod-service
+  name:  helloworld-go-service
 spec:
   selector:
-    app: hello-world-pod
+    app:  helloworld-go
   ports:
     - protocol: TCP
       port: 80
